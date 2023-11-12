@@ -1,0 +1,19 @@
+input-remote-zip:
+input-icons-dir: icons/svg
+
+output-codepoints-dir: icons
+output-codepoints-file: app_icons
+
+output-svg-dir: icons
+output-svg-file: app_icons
+
+output-font-dir: lib/fonts
+output-font-name: AppIcons
+
+output-class-dir: lib
+output-class-file: app_icons.g
+output-class-name: AppIcons
+output-package-name:
+
+icon-name-replaces-ignore:
+icon-name-replaces:

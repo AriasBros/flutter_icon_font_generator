@@ -1,0 +1,18 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+import 'package:flutter/widgets.dart';
+
+class {{className}} {
+  {{className}}._();
+
+  static const String _kFamily = '{{className}}';
+  {{#if packageName}}
+  static const String _kPackage = '{{packageName}}';
+  {{else}}
+  static const String? _kPackage = null;
+  {{/if}}
+
+  {{#each icons}}
+  static const IconData {{@key}} = IconData(0x{{this}}, fontFamily: _kFamily, fontPackage: _kPackage);
+  {{/each}}
+}
